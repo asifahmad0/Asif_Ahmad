@@ -104,6 +104,10 @@
     margin: 1dvw;
 }
 
+#cursor1{
+    display: none;
+}
+
 #skills{
     height: 220dvh;
 }
