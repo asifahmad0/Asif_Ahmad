@@ -1,0 +1,159 @@
+@media (max-width:400px) {
+
+    #loader{
+        height: 100dvh;
+    }
+    #loader h1{
+        font-size: 7vw;
+    }
+    /* #home .home_contant .first_home_contant h6{
+        width: max-content;
+    } */
+#home .home_contant .first_home_contant .first_h5 {
+  position: absolute;
+  top: 10%;
+  left: -5dvh;
+}
+#home .home_contant .first_home_contant h6 {
+    margin-left: 7dvh;
+}
+#home .home_contant .first_home_contant {
+     top: 40%;
+     flex-direction: column-reverse;
+     row-gap: 5dvh;
+}
+    #home .home_contant .sec_home_content {
+        top: 52%;
+    }
+    #home .home_contant .sec_home_content h1 {
+        width: 30dvh;
+    }
+
+#about {
+    margin-top: -150px;
+    flex-direction: column-reverse;
+}
+
+#about .left_about {
+    width: 100%;
+    height: 50%;
+}
+#about .right_about{
+    width: 100%;
+    height: 50%;
+    top: 0;
+}
+#about .right_about .imgcntnr {
+    width: 45dvw;
+    height: 55dvw;
+}
+#about .about_btn {
+    width: 20vh;
+    height: 5dvh;
+    border-radius: 5vw;
+}
+
+
+#about .right_about {
+    bottom: 0;
+}
+
+#work #work_head h1 {
+  font-size: 10dvw;
+}
+#work #work_head i {
+     width: 8dvw;
+  height: 8dvw;
+  font-size: 10dvw;
+}
+#work_images .work_ctn1,
+#work_images1 .work_ctn1 {
+  width: 40vw;
+  height: 45vw;
+  border-radius: 2dvh;
+  
+}
+#work_images .work_ctn2 .img_btn a,
+#work_images1 .work_ctn2 .img_btn a,
+#work_images .work_ctn1 .img_btn a,
+#work_images1 .work_ctn1 .img_btn a{
+    width: 10dvh;
+    height: 4dvh;
+    font-size: 3dvh;
+}
+#work_images .work_ctn2 .img_btn .img_arrow2,
+#work_images1 .work_ctn2 .img_btn .img_arrow2,
+#work_images .work_ctn1 .img_btn .img_arrow,
+#work_images1 .work_ctn1 .img_btn .img_arrow{
+    width: 6dvw;
+    height: 6dvw;
+}
+#work_images .work_ctn2 .img_btn i,
+#work_images1 .work_ctn2 .img_btn i,
+#work_images .work_ctn1 .img_btn i,
+#work_images1 .work_ctn1 .img_btn i{
+    font-size: 2dvh;
+}
+#work_images .work_ctn2 {
+    width: 17dvh;
+  height: 22dvh;
+  border-radius: 5dvw;
+}
+#work_images .work_ctn2 .img_btn,
+#work_images1 .work_ctn2 .img_btn {
+    margin: 1dvw;
+}
+
+#skills{
+    height: 220dvh;
+}
+
+#skills .skill_head{
+    font-size: 10dvw;
+}
+#skills .skillDiv{
+    flex-direction: column;
+    gap: 15px;
+}
+
+#skills .skillDiv .skill_elem h1 i{
+    font-size: 3dvh;
+}
+
+
+
+
+
+
+
+
+    #contact{
+        place-items: center;
+        display: grid;
+        place-items: center;
+    }
+    #contact .left_contact{
+        padding: 0;
+        display: grid;
+        place-items: center;
+    }
+    #contact .left_contact form{
+        width: 300px;
+        height: 450px;
+        top: 23%;
+        right: 10%;
+        padding: 5px;
+        row-gap: 30px;
+        overflow: hidden;
+    }
+    #contact .left_contact form h1{
+        margin: 0 90px;
+    }
+    #contact .left_contact form input{
+        width: 100%;
+        padding: 0;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
