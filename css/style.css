@@ -266,6 +266,7 @@ color: var(--color);
  place-items: center;
  background: transparent;
  z-index: 1;
+ overflow: hidden;
 }
 
 #about .about_btn i {
