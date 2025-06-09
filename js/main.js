@@ -19,21 +19,21 @@ document.querySelectorAll(".revil").forEach((elem)=>{
 creatSpan()
 
 
-function textLoad(){
-  let text = document.getElementById("ocupation");
-  setTimeout(()=>{
-    text.textContent="Full stack Developer";
-  },0);
-  setTimeout(() => {
-        text.textContent = "Python Devloper";
-    }, 1000);
-  setTimeout(() => {
-        text.textContent = "AI/ML Devloper";
-    }, 2000);
+// function textLoad(){
+//   let text = document.getElementById("ocupation");
+//   setTimeout(()=>{
+//     text.textContent="Full stack Developer";
+//   },0);
+//   setTimeout(() => {
+//         text.textContent = "Python Devloper";
+//     }, 1000);
+//   setTimeout(() => {
+//         text.textContent = "AI/ML Devloper";
+//     }, 2000);
 
-}
-textLoad()
-setInterval(textLoad,3500);
+// }
+// textLoad()
+// setInterval(textLoad,3500);
 
 
 //==============================================Gsap======================================================
